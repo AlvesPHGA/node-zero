@@ -1,27 +1,27 @@
-POST http://localhost:3333/videos
+POST https://node-zero-os6v.onrender.com/videos
 Content-Type: application/json
 
 {
-   "title":"receita salada de fruta",
+   "title":"Monter rock",
    "description":"This is the first video",
    "duration":120
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-zero-os6v.onrender.com/videos
 
 ###
 
-PUT  http://localhost:3333/videos/1f15a8a8-05fb-4ec8-b54f-af8322a3bcfd
+PUT  https://node-zero-os6v.onrender.com/videos/9b9ba17f-0e28-414f-9e85-309a27ede9b1
 Content-Type: application/json
 
 {
-   "title":"como treinar um pombo",
-   "description":"This is the first video",
+   "title":"Monster Rodk",
+   "description":"Welcome to battle",
    "duration":120
 }
 
 ###
 
-DELETE   http://localhost:3333/videos/3fa72031-b514-47ee-a7d6-9cfe2807e69c
+DELETE   https://node-zero-os6v.onrender.com/videos/1f15a8a8-05fb-4ec8-b54f-af8322a3bcfd
